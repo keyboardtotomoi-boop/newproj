@@ -24,7 +24,7 @@ def plot_sky_coordinates():
     dec = np.random.uniform(-90, 90, n_stars)  # Declination (-90 to 90°)
     magnitude = np.random.uniform(1, 6, n_stars)  # Brightness (lower = brighter)
     
-    fig, ax = plt.subplots(figsize=(12, 8), projection='rectilinear')
+    fig, ax = plt.subplots(figsize=(12, 8))
     
     # Plot stars with brightness inversely proportional to magnitude
     sizes = (7 - magnitude) * 15  # Brighter stars = larger dots
