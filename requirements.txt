@@ -3,4 +3,3 @@ beautifulsoup4==4.12.2
 astropy==6.0.0
 matplotlib==3.8.2
 numpy==1.26.3
-pandas==2.1.3
